@@ -1,0 +1,13 @@
+name: Assassin
+main: civex.minigames.assassin.AssassinPlugin
+version: 0.1
+author: ryan00793
+description: Assassin Game plugin.
+commands:
+    assassin:
+        description: Base Command
+        usage: assassin help
+permissions:
+    civex.minigames.assassin.admin:
+        default: op
+        description: Allows for the setting up of Assassin Game.
